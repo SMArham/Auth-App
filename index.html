@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+
+
+  <link rel="icon" type="image/svg+xml" href="/download (1).png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Authentication App</title>
+</head>
+
+<body>
+  <div class="user_form">
+    <span class="notify" id="notify"></span>
+    <div class="form">
+      <input type="email" placeholder="Email" id="email">
+      <input type="password" placeholder="Password" id="password">
+      <button class="login_btn" id="login">Login</button>
+      <span id="forget_link" class="forget_link">Forget Password ?</span>
+
+      <button class="SignUp_btn" id="SignUp">SignUp</button>
+
+    </div>
+
+  </div>
+
+  <div class="forget_password">
+    <div>
+      <div class="notify2"></div>
+      <input type="email" placeholder="Enter your email" id="forget_email">
+
+      <button id="forget_btn">Forget Your Password</button>
+      <a href="/" id="forget_login">login Now</a>
+    </div>
+
+  </div>
+
+  <div class="admin_page">
+    <h1 class="hello_admin">
+      Hello Admin
+    </h1>
+    <button id="logout" class="logout">Logout</button>
+  </div>
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
